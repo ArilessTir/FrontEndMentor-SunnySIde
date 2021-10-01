@@ -495,17 +495,16 @@ header{
         width: 80%;
     }
     
-
-
-
     .flex-wrapper{
-        flex-flow: row wrap;
-   
-    }
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(4, 1fr);
+    }  
 
     .flex-wrapper img{
-        flex:1
+        min-width: 100%;
     }
+
 
 
     .mobile{
